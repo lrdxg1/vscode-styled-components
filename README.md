@@ -2,6 +2,8 @@
 
 Syntax highlighting and IntelliSense for [styled-components](https://github.com/styled-components/styled-components).
 
+This fork only do one thing: add the `mediaBP` and `innerBP` names to be recognized by the extension just like ``media` is on the original.
+
 ![Syntax highlighting in action](demo.png)
 
 Uses a CSS grammar built on top of [language-sass](https://github.com/atom/language-sass) and [language-css](https://github.com/atom/language-css).

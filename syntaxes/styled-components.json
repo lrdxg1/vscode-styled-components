@@ -93,7 +93,7 @@
     },
     {
       "contentName": "source.css.scss",
-      "begin": "([mM][eE][dD][iI][aA]\\.[[:alpha:]][[:alnum:]]*(?:\\(.*?\\))?)\\s*(`)",
+      "begin": "((?:[mM][eE][dD][iI][aA]|mediaBP|innerBP)\\.[[:alpha:]][[:alnum:]]*(?:\\(.*?\\))?)\\s*(`)",
       "beginCaptures": {
         "1": {
           "patterns": [
